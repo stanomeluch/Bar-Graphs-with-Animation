@@ -1,0 +1,60 @@
+/*First Bar*/
+h2 {
+  font-family: "Electrolize";
+  text-decoration: underline;
+  text-align: center;
+}
+span {
+  font-family: "Electrolize";
+}
+.wrapFirst {
+  width: 100%;
+  margin: 0 auto;
+}
+.barFirst {
+  background: #e34f26;
+  width: 0;
+  margin: 0.25em 0;
+  color: rgb(255, 255, 255);
+  position: relative;
+  transition: width 2s, background 0.2s;
+  clear: both;
+}
+.barFirst:nth-of-type(2) {
+  background: #0d84ce;
+}
+.barFirst:nth-of-type(3) {
+  background: #563e7c;
+}
+.barFirst:nth-of-type(4) {
+  background: #f0e040;
+}
+.barFirst:nth-of-type(5) {
+  background: #007acc;
+}
+.barFirst:nth-of-type(6) {
+  background: #61dafb;
+}
+
+.barFirst .labelFirst {
+  text-align: center;
+  font-size: 0.75em;
+  padding: 1em;
+  background: #3a34345e;
+  width: 7em;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.countFirst {
+  position: absolute;
+  right: 0.25em;
+  top: 0.75em;
+  padding: 0.15em;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+/*End of First Bar*/
